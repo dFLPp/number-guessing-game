@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+div.all-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-weight: 300;
+   
+}
+
+div.apresentation{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.game-start{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+.game-start:hover{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+    margin-top: 15px;
+    box-shadow: 1px 1px 1px rgb(99, 99, 99);
+}
+
+.game-container{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+    margin-top: 15px;
+    box-shadow: 1px 1px 1px rgb(255, 255, 255);
+    display: none; 
+}
+
+div.apresentation li, ul{
+    padding: 4px;
+}
+
+div.apresentation h1, h3, p{
+    padding: 4px;
+    text-align: center;
+}
+
+.guesses{
+    padding: 12px;
+    margin: 6px;
+}
+
+#game-start{
+    display: none;
+}
+
+.hint{
+    margin-top: 16px;
+    padding: 6px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px rgb(107, 107, 107);
+}

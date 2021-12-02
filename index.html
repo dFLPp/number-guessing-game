@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Adivinhe o número | Jogo teste</title>
+</head>
+<body>
+<div class="all-content">
+    <div class="apresentation">
+        <h1>Adivinhe o número</h1>
+        <h3> Como jogar: </h3>
+        <p>Um número aleatório entre 1 e 100 vai ser escolhido. Tente achar ele em 10 ou menos tentativas</p>
+        <ul>
+            <li> Escolha um número entre 1 e 100</li>
+            <li> Baseado no feedback "Número grande" ou "Número pequeno", escolha outro número</li>
+            <li>Você tem 10 tentativas para achar o número correto</li>
+        </ul>
+    </div>
+    
+    <div class="game-start">
+        <p>Começar jogo</p>
+    </div>
+
+    <div class="game-container">
+        <div class="game-itself">
+            <label for="campoInput">Dê um palpite: </label>
+            <input type="text" id="campoInput" class="campoInput">
+            <input type="submit" value="Enviar" class="enviarInput">
+
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="hint" id="hint"></p>
+        </div>
+    </div>
+    <div id="game-start" class="game-start"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
