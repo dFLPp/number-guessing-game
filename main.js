@@ -50,7 +50,6 @@ function verificarResposta() {
   
     turno++;
     campoInput.value = '';
-    campoInput.style["background-color"] = "white";
     campoInput.focus();
 }
 
@@ -79,7 +78,6 @@ function resetGame() {
     campoInput.disabled = false;
     enviarInput.disabled = false;
     campoInput.value = '';
-    campoInput.style["background-color"] = "white";
     campoInput.focus();
   
     randomNumber = Math.floor(Math.random() * 100) + 1;

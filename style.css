@@ -80,3 +80,9 @@ div.apresentation h1, h3, p{
     color: black;
     box-shadow: 2px 2px 2px rgb(107, 107, 107);
 }
+
+.campoInput[type="text"], textarea {
+
+    background-color : white; 
+  
+  }
