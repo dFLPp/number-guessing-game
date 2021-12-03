@@ -23,6 +23,7 @@ function verificarResposta() {
     let userGuess = Number(campoInput.value);
     if (turno === 1) {
       guesses.textContent = 'Sugestões anteriores: ';
+      document.getElementById("campoInput").style["background-color"] = "white";
     }
     guesses.textContent += userGuess + ' ';
   
