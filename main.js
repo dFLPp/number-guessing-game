@@ -66,6 +66,7 @@ function setGameOver() {
     resetButton = document.createElement('p');
     resetButton.textContent = 'Começar outro jogo';
     document.getElementById("game-start").style["display"] ="flex";
+    document.getElementById("game-start").style["color"] ="black";
     document.getElementById("game-start").appendChild(resetButton);
     resetButton.addEventListener('click', resetGame);
 }
