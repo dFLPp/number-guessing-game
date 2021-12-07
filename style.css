@@ -38,12 +38,27 @@ div.apresentation{
     transition: all ease .5s;
 }
 
+.chang-theme{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
 .game-start:hover{
     background-color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 25px;
     color: white;
     margin-top: 15px;
     box-shadow: 1px 1px 1px rgba(99, 99, 99, 0.705);
+}
+
+#theme{
+    display: none;
+    padding: 6px;
+    margin-top: 20px;
 }
 
 .game-container{
