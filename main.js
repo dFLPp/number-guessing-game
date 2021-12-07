@@ -7,10 +7,7 @@ const buttonOpenSelection = document.querySelector(".chang-theme");
 startGame.addEventListener("click", function() {
     gameBox.style["display"] = "flex";
     startGame.style["display"] = "none";
-    if(selectionBox.style["display"]==="block"){
-      selectionBox.style["display"]="none"
-    }
-    //buttonOpenSelection.style["display"] = "none";
+
 })
 
 let randomNumber = Math.floor(Math.random() * 100) + 1;
